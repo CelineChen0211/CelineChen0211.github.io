@@ -55,7 +55,7 @@
 												<li> <b> Graduate Study</b> 
 															<ul> 
 															<li> University of Californiam Davis, CA </li>
-															<li> Ph.D in <a href="https://mse.engineering.ucdavis.edu/">Materials Science and Engineering </a></li> (GPA: 3.93/4.0) <br> <a href = "http://thermo.ucdavis.edu/"> Peter A. Rock Thermochemistry Laboratory</a>
+															<li> Ph.D in <a href="https://mse.engineering.ucdavis.edu/">Materials Science and Engineering </a></li> (GPA: 3.95/4.0) <br> <a href = "http://thermo.ucdavis.edu/"> Peter A. Rock Thermochemistry Laboratory</a>
 															<li> Courses in <a href="http://www.stat.ucdavis.edu/"> Statistics </a></li> (GPA: 4.0/4.0)
 															</ul>
 												</li> 
