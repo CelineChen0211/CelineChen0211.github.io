@@ -42,7 +42,7 @@
 <p></p>
 	<h3><font color = '#3da5da'>1. How many new games have been produced every year? Are they getting better? Has economic slump hit the publishers or actually the other way around?</font></h3>
 	<div>
-		<img src="Figures/game_year.png" width="500" height="300" align="middle">
+		<img src="Figures/game_year.png" height="300" align="middle">
 	</div>
 	<p> Every year, there are thousands of board games being created. 50% of the games invented in the recent 20 years. A boom of board game is found in 2002-2005. A very trivial conclusion draw from this graph is that the drop in economics may have actually helped board game market. Might because that people are not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
 
@@ -50,7 +50,7 @@
 <p></p>
 	<h3><font color = '#3da5da'> 2. High rating games are more complex! </font></h3>
 	<div>
-		<img src="Figures/Average weight of different rating games.png" width="650" align="middle">
+		<img src="Figures/Average weight of different rating games.png" width="500" align="middle">
 	</div>
 	<p> </p>
 	<p> The weight in the graph is a measurement of the complexity of a game on the scale of 5. There is a significant difference in the complexity of the game in a different category. The games in the very high rating end are actually much more complex than the rest. In general, the more complex the game is, the higher rating it will get.</p>
