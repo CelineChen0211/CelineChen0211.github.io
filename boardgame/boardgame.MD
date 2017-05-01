@@ -42,7 +42,7 @@
 <div class = 'ex3'>
 </div>
 
-<h2> <font color = '#faca55'> PRELIMINARY FINDINGS </font> </h2>
+<h2> <font color = '#faca55'> EXPLORATORY DATA ANALYSIS </font> </h2>
 <p></p>
 <p></p>
 	<h3><font color = '#3da5da'>1. How many new games have been produced every year? Are they getting better? Has economic slump hit the publishers or actually the other way around?</font></h3>
@@ -64,28 +64,28 @@
 
 <p></p>
 
-	<h3><font color = '#3da5da'>3. Design more WARGAME!!!</font></h3>
-	<div>
-		<img src="Figures/average rating under each catogory.png" width="300" align="right">
-		<img src="Figures/num of games under each catogory.png" width="300" align="right">
+	<h3><font color = '#3da5da'>3. What kind of games should be designed?</font></h3>
+	<p> Answer: design more WARGAME!!!
+	<div>		
+		<img src="Figures/num of games under each catogory.png" width="650" align="right">
 	</div>
 	<p></p>
-	<p>31 important words of general qualifications are shared by all majors. They can be classified into two categories: (1) personal characteristics (“independent”, “collaboration”, “coordination”, etc). (2) fundamental professional skills (“excel”, “r”, and “software”).</p>
+	<p>The top three categories are Wargame, Card Game, Children's Game. Now let's see if games under these categories also have higher rated than the rest or not.</p>
 	<div>
-		<img src="Figures/4-venn.jpg" width="650" align="middle">
+		<img src="Figures/average rating under each catogory.png" width="650" align="right">
 	</div>
 	<p></p>
-	<p> Pairwise comparison between each two majors unveiled the overlapping professional skill sets. There are about the same number of words shared by statistics and other two majors. The overlap between CHE and MSE is quite large. It is not surprising, we were a single department last year!</p>
+	<p> The answer is no. The top list are quite different. The only overlap is Wargame. </p>
 
 <p></p>
 	
-	<h3><font color = '#3da5da'>4. What do Statisticians master?</font></h3>
-	<p> Since we know very well about our own majors, we only dug into the unique skill set for statisticians.  Google suggested a professional skill set for statistics major, let’s see what are the most popular ones. </p>
+	<h3><font color = '#3da5da'>4. What mechanics should be incorprated? </font></h3>
+	<p> Answer:  Deck/Pool Building, Time Track, Worker Placement.</p>
 	<div>
-		<img src="Figures/skill set of STAT.png" width="650" align="middle">
+		<img src="Figures/average rating under each mechanics.png" width="650" align="middle">
 	</div>	
-	<p></p>
-	<p>Obviously, “Excel”, “Sql”, “Python”,“R” stand out prominently. So learn STA141-abc classes very carefully, statistics students!</p>
+	<p> Without furter explaination, the first three are most high rating machanics. </p>
+	<p> It is interesting that the overlap between the top numbers of games and the top rating is larger. Designers are doing great jobs! They are actually using the right mechanics, like "dice rolling", "hand management", "Hex-and-Counter", "simulation", and "tile placement".</p>
 
 <p></p>
 
