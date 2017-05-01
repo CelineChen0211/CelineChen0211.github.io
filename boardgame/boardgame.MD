@@ -32,7 +32,7 @@
 
 <p> Hence, to achieve this goal, first step is to understand the relation between the features and rating of a board game. Then, build a statistical model based on this knowledge. Secondly, we need to analyze the comments from the players and come up with another model based merely upon the customers. Finally, a comparison between these two models will give rise to how large the gap between the game itself and the true game experienced by the players. Hopefully, these two models will be consistent! </p>
 
-<p> Another part of my project after having a big picture of board games, a metric which represents the similarity between two games can be proposed. Using this metric, a recommendation system can be built to find the game most similar to a bunch of games different people suggest.</p>
+<p> Another part of my project after having a big picture of board games, is to come up with a metric which represents the similarity between two games can be proposed. Using this metric, a recommendation system can be built to find the game most similar to a bunch of games different people suggest.</p>
 
 <div class = 'ex3'>
 </div>
@@ -127,7 +127,7 @@
 <div class = 'ex3'>
 </div>
 
-	<p>I hope you enjoyed reading my project as much as I do! Hope this project makes you excited about the board game market. If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/boardgame'>here</a> is the jupyter notebook. Comments and feedback are always welcomed(<a href = ''> Click here </a>)!<p>
+	<p>I hope you are excieted about the board game market and the results I discovered! If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/boardgame'>here</a> is the jupyter notebook. Comments and feedback are always welcomed!(cjwchen (at) ucdavis.edu)<p>
 
 <center>
 <footer class="site-footer">
