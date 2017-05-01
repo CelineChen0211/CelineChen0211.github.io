@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title> Recent Job Market Analysis across Differnet Majors </title>
+    <title> Board game </title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
@@ -24,18 +24,10 @@
         <div id="title">
           <h1> Recent Job Market Analysis </h1>
           <hr class = "style15">
-          <p> <a href="mailto:cjwchen@ucdavis.edu?Subject=Hello%20again" target="_top">Jiewei Chen</a> and
-          <a href="mailto:xdxue@ucdavis.edu?Subject=Hello%20again" target="_top">Da Xue</a> </p>
+          <p> <a href="mailto:cjwchen@ucdavis.edu?Subject=Hello%20again" target="_top">Jiewei Chen</a> </p>
           <hr>
          </div>
 
-
-
-<h2> <center>A quick look at this project</center> </h2>
-
-<div class="youtube">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/vwKmp3zmiXg" frameborder="0" allowfullscreen></iframe>
-</div>
   
 <div class = 'ex3'> </div>
 
@@ -53,9 +45,12 @@
 
 <h2> <font color = '#faca55'>METHOD & TECHENIQUES</font> </h2>
 
-<p>		The data of the job market come from <a href = 'https://www.indeed.com/'>indeed.com</a>. We restricted our scope to STAT, CHE, and MSE, and California. (The procedure can be easily extended to other locations and majors.) </p>
+<p>		My capstone project is to make predictions on the rating of a new coming game, or some niche games. The rating of a game is not only closely related to the features of a game itself but also depend on the players’ side - the reviews, to a great extent. On one hand, understanding the rating and features relations can help board game designer or board game companies to design greater games. On the other hand, for a website like boardgamegeek, prediction of rating by analyzing unlabeled comments will give a more thorough picture of a game. For publishers, the prediction of rating will also reflect the uncovered aspect of a game. </p>
 
-<p>		To quickly get to the fun part of the results, the methodologies and techniques we used for this project are summarized in this table. You may scroll down to the very bottom to find the link to our jupyter notebook to find more details. </p>
+<p> Hence, to achieve this goal, first step is to understand the relation between the features and rating of a board game. Then, build a statistical model based on this knowledge. Secondly, we need to analyze the comments from the players and come up with another model based merely upon the customers. Finally, a comparison between these two models will give rise to how large the gap between the game itself and the true game experienced by the players. Hopefully, these two models will be consistent! </p>
+
+<p> Another part of my project after having a big picture of board games, a metric which represents the similarity between two games can be proposed. Using this metric, a recommendation system can be built to find the game most similar to a bunch of games different people suggest.</p>
+
 
 <div>
 	<img src="Figures/2-method.jpg" height="300" align="middle">
@@ -64,16 +59,14 @@
 <div class = 'ex3'>
 </div>
 
-<h2> <font color = '#faca55'> INTERSTING FINDINGS </font> </h2>
+<h2> <font color = '#faca55'> PRELIMINARY FINDINGS </font> </h2>
 <p></p>
 <p></p>
-	<h3><font color = '#3da5da'>1. Where are the hiring companies ?</font></h3>
+	<h3><font color = '#3da5da'>1. How many new games have been produced every year? Are they getting better? Has economic slump hit the publishers or actually the other way around?</font></h3>
 	<div>
-  	<img src="Figures/LocationofJobs2.jpg" height="200" align="right">
+  	<img src="Figures/game_year.png" height="200" align="right">
   	</div>
-	<p> Not surprisingly, there are two clusters on the map, one is at the silicon valley, and the other is around LA. </p>
-	<p> Another interesting observation is that the STAT companies are more closely centered at these two locations, whereas the CHE and MSE companies are more widely distributed.</p>
-	<p>	Check out these interactive maps to have a closer look at the job posts. Click the pins to find the job titles and company names! </p>
+	<p> A very trivial answer I can draw from this graph is that the drop in economics may have actually helped board game market. Might because of that people may not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
 
 <center>
 	<iframe width="210" height="180" src='Figures/Statistics.html' frameborder="2"></iframe><iframe width="210" height="180" src='Figures/Chemical_Engineering.html' frameborder="2"></iframe><iframe width="210" height="180" src='Figures/Materials_Science.html' frameborder="2"></iframe>
