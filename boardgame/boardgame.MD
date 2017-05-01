@@ -77,49 +77,25 @@
 <p></p>
 	
 	<h3><font color = '#3da5da'>4. What mechanics should be incorprated? </font></h3>
-	<p> Deck/Pool Building, Time Track, Worker Placement.</p>
+	<p> The answer is "Deck/Pool Building", "Time Track", "Worker Placement" and etc.</p>
 	<div>
 		<img src="Figures/average rating under each mechanics.png" width="650" align="middle">
 	</div>	
+	<p></p>
 	<p> No need for furter explaination, the first three are most high rating machanics. </p>
 	<p> It is interesting that the overlap between the top numbers of games and the top rating is larger. Designers are doing great jobs! They are actually using the right mechanics, like "dice rolling", "hand management", "Hex-and-Counter", "simulation", and "tile placement".</p>
 
 <p></p>
 
-	<h3><font color = '#3da5da'>5. How much can you earn?</font></h3>
-	<p>The distribution of the STAT and CHE majors are very similar whose average annual salary is around 70 thousand. Chemical engineers actually earn a little bit more than statisticians in general. </p>
-	<div>
-		<img src="Figures/salary_violinplot.png" width="650" align="middle">
-	</div>
-	<p></p>
-	<p>The entry salary level for material scientists is much higher than the other majors. However, the highest level is very limited as well. The distribution is pretty narrow and it seems that there is not much space to push up your salary for a material scientist. It’s probably a good idea for Jiewei to pursue a degree in statistics!</p>
-
-
-<p></p>
-
-
-	<h3><font color = '#3da5da'>6. How can you earn more?</font></h3>
-	<p>Is there any particular skill that can boost your salary level?</p>
-	<div>
-		<img src="Figures/Skill Salary Bar Plot.png" width="650" align="middle">
-	</div>
-	<p></p>
-	<p>Unfortunately, there is no quick answer. We equally differentiated the job posts according to the annual salary they offer. The most popular skill set including R, Python, and Hadoop (again, the content of the STA141-abc course series), are all commonly required regardless of the salary level. Some other skills are required by some jobs but not the others.</p> 
-	<p>We believe there should be some correlation between the skill set and the salary level. But we did not find any particular skill that is special for the high salary level group. One possible reason is the data limitation. Not all the job posts would specify the salary level, and only about 10% of the job posts we scraped provided the salary information. The sample size is relatively small to begin with. Another hypothesis is that it may be the size of your skill set, instead of a special skill, that determines your salary level. </p>
-
-<p></p>
-<p></p>
-
-<p>It seems that not all companies are frank enough to tell you their job salary. And we were not able to proceed with the limited data to infer the salary difference between undergrads and grads. Let’s hope for now that our efforts will be paid off…</p>
 
 <div class = 'ex3'>
 </div>
 
-<h2> <font color = '#faca55'>WRAP UP </font></h2>
+<h2> <font color = '#faca55'>PREDICTION OF RATING</font></h2>
 
 <p>We had a lot of fun with this project. Da is super excited that chemical engineers earn the most among the three majors, and Jiewei is pretty happy that she now knows R and Python very well. We can’t wait to learn more about statistics!</p>
 
-<p>We hope you enjoyed reading our project as much as we do! If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/STA141b-Project/tree/master'>here</a> is our jupyter notebook. Comments and feedback are always welcomed(<a href = 'https://youtu.be/vwKmp3zmiXg'> Click here </a>)!<p>
+<p>We hope you enjoyed reading our project as much as we do! If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/boardgame'>here</a> is our jupyter notebook. Comments and feedback are always welcomed(<a href = ''> Click here </a>)!<p>
 
 
 
