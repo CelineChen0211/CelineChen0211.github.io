@@ -28,11 +28,6 @@
           <hr>
          </div>
 
-
-
-<div class = 'ex3'>
-</div>
-
 <p>		My capstone project is to make predictions on the rating of a new coming game, or some niche games. The rating of a game is not only closely related to the features of a game itself but also depend on the players’ side - the reviews, to a great extent. On one hand, understanding the rating and features relations can help board game designer or board game companies to design greater games. On the other hand, for a website like boardgamegeek, prediction of rating by analyzing unlabeled comments will give a more thorough picture of a game. For publishers, the prediction of rating will also reflect the uncovered aspect of a game. </p>
 
 <p> Hence, to achieve this goal, first step is to understand the relation between the features and rating of a board game. Then, build a statistical model based on this knowledge. Secondly, we need to analyze the comments from the players and come up with another model based merely upon the customers. Finally, a comparison between these two models will give rise to how large the gap between the game itself and the true game experienced by the players. Hopefully, these two models will be consistent! </p>
@@ -47,7 +42,7 @@
 <p></p>
 	<h3><font color = '#3da5da'>1. How many new games have been produced every year? Are they getting better? Has economic slump hit the publishers or actually the other way around?</font></h3>
 	<div>
-		<img src="Figures/game_year.png" width="650" align="middle">
+		<img src="Figures/game_year.png" width="500" align="middle">
 	</div>
 	<p> Every year, there are thousands of board games being created. 50% of the games invented in the recent 20 years. A boom of board game is found in 2002-2005. A very trivial conclusion draw from this graph is that the drop in economics may have actually helped board game market. Might because that people are not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
 
@@ -67,12 +62,12 @@
 	<h3><font color = '#3da5da'>3. What kind of games should be designed?</font></h3>
 	<p> Answer: design more WARGAME!!!
 	<div>		
-		<img src="Figures/num of games under each catogory.png" width="650" align="right">
+		<img src="Figures/num of games under each catogory.png" width="500" align="right">
 	</div>
 	<p></p>
 	<p>The top three categories are Wargame, Card Game, Children's Game. Now let's see if games under these categories also have higher rated than the rest or not.</p>
 	<div>
-		<img src="Figures/average rating under each catogory.png" width="650" align="right">
+		<img src="Figures/average rating under each catogory.png" width="500" align="right">
 	</div>
 	<p></p>
 	<p> The answer is no. The top list are quite different. The only overlap is Wargame. </p>
@@ -92,7 +87,7 @@
 	<h3><font color = '#3da5da'>5. How much can you earn?</font></h3>
 	<p>The distribution of the STAT and CHE majors are very similar whose average annual salary is around 70 thousand. Chemical engineers actually earn a little bit more than statisticians in general. </p>
 	<div>
-		<img src="Figures/salary_violinplot.png" width="650" align="middle">
+		<img src="Figures/salary_violinplot.png" width="500" align="middle">
 	</div>
 	<p></p>
 	<p>The entry salary level for material scientists is much higher than the other majors. However, the highest level is very limited as well. The distribution is pretty narrow and it seems that there is not much space to push up your salary for a material scientist. It’s probably a good idea for Jiewei to pursue a degree in statistics!</p>
