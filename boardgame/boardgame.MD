@@ -67,7 +67,7 @@
 	<h3><font color = '#3da5da'>3. Design more WARGAME!!!</font></h3>
 	<div>
 		<img src="Figures/average rating under each catogory.png" width="300" align="right">
-		<img src="Figures/# of games under each catogory.png" width="300" align="right">
+		<img src="Figures/num of games under each catogory.png" width="300" align="right">
 	</div>
 	<p></p>
 	<p>31 important words of general qualifications are shared by all majors. They can be classified into two categories: (1) personal characteristics (“independent”, “collaboration”, “coordination”, etc). (2) fundamental professional skills (“excel”, “r”, and “software”).</p>
