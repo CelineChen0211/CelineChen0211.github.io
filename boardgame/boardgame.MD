@@ -71,7 +71,7 @@
 		<img src="Figures/num of games under each catogory.png" width="650"  align="middle">
 	</div>
 	<p></p>
-	<p>Unfortuately, they are quite different. The only overlap is wargame. This is actually opens up a new opportunity for the designers and publishers. They should develop more new games under these high-rating categories.</p>
+	<p>Unfortunately, they are quite different. The only overlap is wargame. This actually opens up a new opportunity for the designers and publishers. They should develop more new games under these high-rating categories.</p>
 
 
 <p></p>
