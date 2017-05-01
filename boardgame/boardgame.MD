@@ -61,21 +61,13 @@
 	<p> The weight in the graph is a measurement of the complexity of a game on the scale of 5. There is a significant difference in the complexity of the game in a different category. The games in the very high rating end are actually much more complex than the rest. In general, the more complex the game is, the higher rating it will get.</p>
 	<p> However, the range of the complexity index of each rating category is actually quite similar. So don't worry there is still some games which are fun and easy at the same time! </p>
 	<p> Similar influence can be seen from the playing time and the min age requirement. However, considering the fact the more complex the game is, the more time it usually will take, I think the most important factor is the complexity, rather than playing time. Same for min age requirement. For more details of the reasoning, see <a href = "https://github.com/CelineChen0211/boardgame/blob/master/exploratory%20analysis.ipynb">here</a>.</p>
-	<p>
-	
-	<div>
-		<img src="Figures/3-degree pie.jpg" width="650" align="middle">
-	</div>
-	
-	<p></p>
-	<p>The population data of the entire US in 2014 to 2015 academic year of the statistic major and engineering majors come from the <a href = 'https://nces.ed.gov/fastfacts/display.asp?id=37'>National Center for Education Statistics</a>. And the job demand data were obtained from Indeed website and only for California. Since the data are not on the same page in terms of time and locations, we only compared the percentage of different degrees. </p>
-	<p>Assuming the CA data is representative for the entire nation, the percentage of undergrad is smaller in population than that in the job market. It seems to be easier for undergrads to find a job. However, people with higher education levels may prefer to continue their career in academia rather than industry.</p>
 
 <p></p>
 
-	<h3><font color = '#3da5da'>3. How different are the majors in terms of skill set?</font></h3>
+	<h3><font color = '#3da5da'>3. Design more WARGAME!!!</font></h3>
 	<div>
-		<img src="Figures/wordcloud.jpg" height="160" align="right">
+		<img src="Figures/average rating under each catogory.png" width="300" align="right">
+		<img src="Figures/# of games under each catogory.png" width="300" align="right">
 	</div>
 	<p></p>
 	<p>31 important words of general qualifications are shared by all majors. They can be classified into two categories: (1) personal characteristics (“independent”, “collaboration”, “coordination”, etc). (2) fundamental professional skills (“excel”, “r”, and “software”).</p>
