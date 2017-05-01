@@ -28,33 +28,16 @@
           <hr>
          </div>
 
-  
-<div class = 'ex3'> </div>
-
-<p>		What is the current demand in the job market? How much money can I make if I major in statistics? What are the most important skills to put into my resume? Where are the hiring companies located? How does the job market differ across different majors? When is the job market largest?… </p>
-
-<p> 	These practical questions are faced by new graduates and even younger college students. This project tries its best to help the freshmen to choose the best major; senior and graduate students to draw a big picture of the current job market. </p>
-
-<p> 	The majority of this project analyzes and compares the job market for the 3 majors of STAT, CHE, and MSE. (Because we are CHE and MSE students considering of pursuing a second degree!) </p>
 
 
 <div class = 'ex3'>
 </div>
-
-
-
-<h2> <font color = '#faca55'>METHOD & TECHENIQUES</font> </h2>
 
 <p>		My capstone project is to make predictions on the rating of a new coming game, or some niche games. The rating of a game is not only closely related to the features of a game itself but also depend on the players’ side - the reviews, to a great extent. On one hand, understanding the rating and features relations can help board game designer or board game companies to design greater games. On the other hand, for a website like boardgamegeek, prediction of rating by analyzing unlabeled comments will give a more thorough picture of a game. For publishers, the prediction of rating will also reflect the uncovered aspect of a game. </p>
 
 <p> Hence, to achieve this goal, first step is to understand the relation between the features and rating of a board game. Then, build a statistical model based on this knowledge. Secondly, we need to analyze the comments from the players and come up with another model based merely upon the customers. Finally, a comparison between these two models will give rise to how large the gap between the game itself and the true game experienced by the players. Hopefully, these two models will be consistent! </p>
 
 <p> Another part of my project after having a big picture of board games, a metric which represents the similarity between two games can be proposed. Using this metric, a recommendation system can be built to find the game most similar to a bunch of games different people suggest.</p>
-
-
-<div>
-	<img src="Figures/2-method.jpg" height="300" align="middle">
-</div>
 
 <div class = 'ex3'>
 </div>
@@ -64,22 +47,20 @@
 <p></p>
 	<h3><font color = '#3da5da'>1. How many new games have been produced every year? Are they getting better? Has economic slump hit the publishers or actually the other way around?</font></h3>
 	<div>
-  	<img src="Figures/game_year.png" height="200" align="right">
+  	<img src="Figures/game_year.png" height="200" align="middle">
   	</div>
-	<p> A very trivial answer I can draw from this graph is that the drop in economics may have actually helped board game market. Might because of that people may not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
-
-<center>
-	<iframe width="210" height="180" src='Figures/Statistics.html' frameborder="2"></iframe><iframe width="210" height="180" src='Figures/Chemical_Engineering.html' frameborder="2"></iframe><iframe width="210" height="180" src='Figures/Materials_Science.html' frameborder="2"></iframe>
-</center>
+	<p> Every year, there are thousands of board games being created. 50% of the games invented in the recent 20 years. A boom of board game is found in 2002-2005. A very trivial conclusion draw from this graph is that the drop in economics may have actually helped board game market. Might because that people are not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
 
 <p> </p>
 <p></p>
-	<h3><font color = '#3da5da'> 2. Grads vs Undergrads, who are more wanted? </font></h3>
+	<h3><font color = '#3da5da'> 2. High rating games are more complex! </font></h3>
 	<div>
-		<img src="Figures/Degree requirement comparison.png" width="650" align="middle">
+		<img src="Figures/Average weight of different rating games.png" width="650" align="middle">
 	</div>
 	<p> </p>
-	<p>The majority of the jobs only require a Bachelors degree. For internships, the percentage of graduate is slightly higher. It is interesting to find that there is really high demand for Materials Science graduate students for internships.</p>
+	<p> The weight in the graph is a measurement of the complexity of a game on the scale of 5. There is a significant difference in the complexity of the game in a different category. The games in the very high rating end are actually much more complex than the rest. In general, the more complex the game is, the higher rating it will get.</p>
+	<p> However, the range of the complexity index of each rating category is actually quite similar. So don't worry there is still some games which are fun and easy at the same time! </p>
+	
 	<div>
 		<img src="Figures/3-degree pie.jpg" width="650" align="middle">
 	</div>
