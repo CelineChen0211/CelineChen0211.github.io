@@ -93,7 +93,13 @@
 
 <h2> <font color = '#faca55'>PREDICTION OF RATING</font></h2>
 
-<p>We had a lot of fun with this project. Da is super excited that chemical engineers earn the most among the three majors, and Jiewei is pretty happy that she now knows R and Python very well. We can’t wait to learn more about statistics!</p>
+	<p>For now, two models have been used. One is linear regression, the other k-nearest neighbor. The linear model is selected by using forward step selection, and the criterion used here is the leave-one-out risk. The comparison between two models are listed below.</p>
+
+	<div>
+		<img src="Figures/Risks Regression.png" width="650" align="middle">
+	</div>	
+	<p></p>
+	<p>The LOO risk reaches the loweset with the choice of k=13. Comparing with the best model from linear regression, kNN algorithm gives smaller LOO risk. Thus, the kNN model is better!</p>
 
 <p>We hope you enjoyed reading our project as much as we do! If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/boardgame'>here</a> is our jupyter notebook. Comments and feedback are always welcomed(<a href = ''> Click here </a>)!<p>
 
