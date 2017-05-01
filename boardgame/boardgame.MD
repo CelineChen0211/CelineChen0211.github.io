@@ -45,7 +45,7 @@
 		<img src="Figures/game_year.png" width="650" align="middle">
 	</div>
 	<p></p>
-	<p> Every year, there are thousands of board games being created. 50% of the games invented in the recent 20 years. A boom of board game is found in 2002-2005. A very trivial conclusion draw from this graph is that the drop in economics may have actually helped board game market. Might because that people are not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
+	<p> Every year, there are thousands of board games being created. 50% of the games invented in the recent 20 years. A boom of board game is found in 2002-2005. A very trivial conclusion draw from this graph is that the drop in economics may have actually HELPED board game market. Might because that people are not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
 
 <p> </p>
 <p></p>
@@ -55,18 +55,18 @@
 	</div>
 	<p> </p>
 	<p> The weight in the graph is a measurement of the complexity of a game on the scale of 5. There is a significant difference in the complexity of the game in a different category. The games in the very high rating end are actually much more complex than the rest. In general, the more complex the game is, the higher rating it will get.</p>
-	<p> However, the range of the complexity index of each rating category is actually quite similar. So don't worry there is still some games which are fun and easy at the same time! </p>
-	<p> Similar influence can be seen from the playing time and the min age requirement. However, considering the fact the more complex the game is, the more time it usually will take, I think the most important factor is the complexity, rather than playing time. Same for min age requirement. For more details of the reasoning, see <a href = "https://github.com/CelineChen0211/boardgame/blob/master/exploratory%20analysis.ipynb">here</a>.</p>
+	<p> However, the range of the complexity index of each rating category is actually quite similar. So don't worry there is still some games which are fun and easy at the same time! =)</p>
+	<p> Similar influence can be seen from the playing time and the min age requirement. However, considering the fact the more complex the game is, the more time it usually will take. I think the most important factor is the complexity, rather than playing time. Same for min age requirement. For more details of the reasoning, see <a href = "https://github.com/CelineChen0211/boardgame/blob/master/exploratory%20analysis.ipynb">here</a>.</p>
 
 <p></p>
 
 	<h3><font color = '#3da5da'>3. What kind of games should be designed?</font></h3>
-	<p> Design more GAMES like "Age of Reason", "Expansion for Base Game" or "Pike and Shot", other than WARGAME!!!
+	<p> Design more games like "Age of Reason", "Expansion for Base Game" or "Pike and Shot", other than WARGAME!!!
 	<div>
 		<img src="Figures/average rating under each catogory.png" width="650" align="middle">
 	</div>
 	<p></p>
-	The top three rating categories of games are "Age of Reason", "Expansion for Base Game" or "Pike and Shot". Are there a lot of these kinds of the games? Let's see the number of games under different categories.
+	<p>The top three rating categories of games are "Age of Reason", "Expansion for Base Game" or "Pike and Shot". Are there a lot of these kinds of the games? Let's see the number of games under different categories. Below is a graph showing the number of current games under different categories.</p>
 	<div>		
 		<img src="Figures/num of games under each catogory.png" width="650"  align="middle">
 	</div>
@@ -82,7 +82,10 @@
 		<img src="Figures/average rating under each mechanics.png" width="650" align="middle">
 	</div>	
 	<p></p>
-	<p> No need for furter explaination, the first three are most high rating machanics. </p>
+	<p> No need for furter explaination, the first three are most high rating machanics. Are there any gaps here as well?</p>
+	<div>
+		<img src="Figures/num of games under each mechanics.png" width="650" align="middle">
+	</div>	
 	<p> It is interesting that the overlap between the top numbers of games and the top rating is larger. Designers are doing great jobs! They are actually using the right mechanics, like "dice rolling", "hand management", "Hex-and-Counter", "simulation", and "tile placement".</p>
 
 <p></p>
@@ -99,12 +102,13 @@
 		<img src="Figures/Risks Regression.png" width="650" align="middle">
 	</div>	
 	<p></p>
-	<p>The LOO risk reaches the loweset with the choice of k=13. Comparing with the best model from linear regression, kNN algorithm gives smaller LOO risk. Thus, the kNN model is better!</p>
+	<p>The LOO risk reaches the loweset with the choice of k=13. Comparing with the best model from linear regression, kNN algorithm gives smaller LOO risk. Thus, the kNN model is better! Considering the rating is on the scale of 10, the risk is quite small. My prediction works really well!</p>
 
 <div class = 'ex3'>
 </div>
 
 <h2> <font color = '#faca55'>COMMENTS ANALYSIS</font></h2>
+	<p> Before starting to make prediction based on comments, I want to see if there is any difference in the comments for different ratings? Thus, I created this matrix.</p>
 	<div>
 		<img src="Figures/commonwordmatrix.png" width="650" align="middle">
 	</div>	
@@ -129,6 +133,11 @@
 
 	<p>I hope you are excieted about the board game market and the results I discovered! If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/boardgame'>here</a> is the jupyter notebook. Comments and feedback are always welcomed!(cjwchen (at) ucdavis.edu)<p>
 
+
+<div class = 'ex3'>
+</div>
+<div class = 'ex3'>
+</div>
 <center>
 <footer class="site-footer">
     Copyright Jiewei Chen &copy; 2017
