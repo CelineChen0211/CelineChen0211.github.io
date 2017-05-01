@@ -42,7 +42,7 @@
 <p></p>
 	<h3><font color = '#3da5da'>1. How many new games have been produced every year? Are they getting better? Has economic slump hit the publishers or actually the other way around?</font></h3>
 	<div>
-		<img src="Figures/game_year.png" width="500" align="middle">
+		<img src="Figures/game_year.png" width="500" height="300" align="middle">
 	</div>
 	<p> Every year, there are thousands of board games being created. 50% of the games invented in the recent 20 years. A boom of board game is found in 2002-2005. A very trivial conclusion draw from this graph is that the drop in economics may have actually helped board game market. Might because that people are not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
 
@@ -60,14 +60,14 @@
 <p></p>
 
 	<h3><font color = '#3da5da'>3. What kind of games should be designed?</font></h3>
-	<p> Answer: design more WARGAME!!!
+	<p> Design more GAMES, other than WARGAME!!!
 	<div>		
-		<img src="Figures/num of games under each catogory.png" width="500" align="right">
+		<img src="Figures/num of games under each catogory.png" width="500"  align="middle">
 	</div>
 	<p></p>
 	<p>The top three categories are Wargame, Card Game, Children's Game. Now let's see if games under these categories also have higher rated than the rest or not.</p>
 	<div>
-		<img src="Figures/average rating under each catogory.png" width="500" align="right">
+		<img src="Figures/average rating under each catogory.png" width="500" align="middle">
 	</div>
 	<p></p>
 	<p> The answer is no. The top list are quite different. The only overlap is Wargame. </p>
@@ -75,7 +75,7 @@
 <p></p>
 	
 	<h3><font color = '#3da5da'>4. What mechanics should be incorprated? </font></h3>
-	<p> Answer:  Deck/Pool Building, Time Track, Worker Placement.</p>
+	<p> Deck/Pool Building, Time Track, Worker Placement.</p>
 	<div>
 		<img src="Figures/average rating under each mechanics.png" width="650" align="middle">
 	</div>	
