@@ -22,7 +22,7 @@
 
       <section>
         <div id="title">
-          <h1> Recent Job Market Analysis </h1>
+          <h1> Board Game Rating Prediction and Market Analysis </h1>
           <hr class = "style15">
           <p> <a href="mailto:cjwchen@ucdavis.edu?Subject=Hello%20again" target="_top">Jiewei Chen</a> </p>
           <hr>
@@ -103,7 +103,19 @@
 
 <p>We hope you enjoyed reading our project as much as we do! If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/boardgame'>here</a> is our jupyter notebook. Comments and feedback are always welcomed(<a href = ''> Click here </a>)!<p>
 
+<div class = 'ex3'>
+</div>
 
+<h2> <font color = '#faca55'>COMMENTS ANALYSIS</font></h2>
+	<div>
+		<img src="Figures/commonwordmatrix.png" width="650" align="middle">
+	</div>	
+	<p></p>
+	<p>The number in this graph can be thought as a metric measuring the similarity between two rating levels. The higher it is, the more similar they are. For more details on the computation of this value, please refer to the <a href = 'https://github.com/CelineChen0211/boardgame/blob/master/Comment%20Analysis.ipynb'>code</a>.</p> 
+	
+	<p>So the closer the two level are, the more common words shared by these two, the larger the number is. For example, look at the first row, which represents the percent of shared words of level 2-4 in the corpus of level 2-4, with respect to other levels. As the rating gets higher, the percentage drops, indicating that the comments are getting more and more different as the rating score getting higher.</p>
+
+	<p>This initial exploration definitely gives me confidence that the commets under different rating scores are different. Thus, it is reasonable to come up with a prediction algorithm based on these comments.</p>
 
 <div class = 'ex3'>
 </div>
