@@ -42,15 +42,16 @@
 <p></p>
 	<h3><font color = '#3da5da'>1. How many new games have been produced every year? Are they getting better? Has economic slump hit the publishers or actually the other way around?</font></h3>
 	<div>
-		<img src="Figures/game_year.png" height="300" align="middle">
+		<img src="Figures/game_year.png" width="650" align="middle">
 	</div>
+	<p></p>
 	<p> Every year, there are thousands of board games being created. 50% of the games invented in the recent 20 years. A boom of board game is found in 2002-2005. A very trivial conclusion draw from this graph is that the drop in economics may have actually helped board game market. Might because that people are not willing to spend money on more expensive relaxing activities, such as movies. But they would be happy for a one-time purchase on a fun board game.</p>
 
 <p> </p>
 <p></p>
-	<h3><font color = '#3da5da'> 2. High rating games are more complex! </font></h3>
+	<h3><font color = '#3da5da'> 2. Do players like more complex games or not? </font></h3>
 	<div>
-		<img src="Figures/Average weight of different rating games.png" width="500" align="middle">
+		<img src="Figures/Average weight of different rating games.png" width="650" align="middle">
 	</div>
 	<p> </p>
 	<p> The weight in the graph is a measurement of the complexity of a game on the scale of 5. There is a significant difference in the complexity of the game in a different category. The games in the very high rating end are actually much more complex than the rest. In general, the more complex the game is, the higher rating it will get.</p>
@@ -60,17 +61,18 @@
 <p></p>
 
 	<h3><font color = '#3da5da'>3. What kind of games should be designed?</font></h3>
-	<p> Design more GAMES, other than WARGAME!!!
-	<div>		
-		<img src="Figures/num of games under each catogory.png" width="500"  align="middle">
-	</div>
-	<p></p>
-	<p>The top three categories are Wargame, Card Game, Children's Game. Now let's see if games under these categories also have higher rated than the rest or not.</p>
+	<p> Design more GAMES like "Age of Reason", "Expansion for Base Game" or "Pike and Shot", other than WARGAME!!!
 	<div>
-		<img src="Figures/average rating under each catogory.png" width="500" align="middle">
+		<img src="Figures/average rating under each catogory.png" width="650" align="middle">
 	</div>
 	<p></p>
-	<p> The answer is no. The top list are quite different. The only overlap is Wargame. </p>
+	The top three rating categories of games are "Age of Reason", "Expansion for Base Game" or "Pike and Shot". Are there a lot of these kinds of the games? Let's see the number of games under different categories.
+	<div>		
+		<img src="Figures/num of games under each catogory.png" width="650"  align="middle">
+	</div>
+	<p></p>
+	<p>Unfortuately, they are quite different. The only overlap is wargame. This is actually opens up a new opportunity for the designers and publishers. They should develop more new games under these high-rating categories.</p>
+
 
 <p></p>
 	
@@ -79,7 +81,7 @@
 	<div>
 		<img src="Figures/average rating under each mechanics.png" width="650" align="middle">
 	</div>	
-	<p> Without furter explaination, the first three are most high rating machanics. </p>
+	<p> No need for furter explaination, the first three are most high rating machanics. </p>
 	<p> It is interesting that the overlap between the top numbers of games and the top rating is larger. Designers are doing great jobs! They are actually using the right mechanics, like "dice rolling", "hand management", "Hex-and-Counter", "simulation", and "tile placement".</p>
 
 <p></p>
@@ -87,7 +89,7 @@
 	<h3><font color = '#3da5da'>5. How much can you earn?</font></h3>
 	<p>The distribution of the STAT and CHE majors are very similar whose average annual salary is around 70 thousand. Chemical engineers actually earn a little bit more than statisticians in general. </p>
 	<div>
-		<img src="Figures/salary_violinplot.png" width="500" align="middle">
+		<img src="Figures/salary_violinplot.png" width="650" align="middle">
 	</div>
 	<p></p>
 	<p>The entry salary level for material scientists is much higher than the other majors. However, the highest level is very limited as well. The distribution is pretty narrow and it seems that there is not much space to push up your salary for a material scientist. It’s probably a good idea for Jiewei to pursue a degree in statistics!</p>
