@@ -22,13 +22,13 @@
 
       <section>
         <div id="title">
-          <h1> Board Game Rating Prediction and Market Analysis </h1>
+          <h1> Board Game Market Analysis and Rating Prediction </h1>
           <hr class = "style15">
           <p> <a href="mailto:cjwchen@ucdavis.edu?Subject=Hello%20again" target="_top">Jiewei Chen</a> </p>
           <hr>
          </div>
 
-<p>		My capstone project is to make predictions on the rating of a new coming game, or some niche games. The rating of a game is not only closely related to the features of a game itself but also depend on the players’ side - the reviews, to a great extent. On one hand, understanding the rating and features relations can help board game designer or board game companies to design greater games. On the other hand, for a website like boardgamegeek, prediction of rating by analyzing unlabeled comments will give a more thorough picture of a game. For publishers, the prediction of rating will also reflect the uncovered aspect of a game. </p>
+<p>		My capstone project is the exploration of the board game market and making prediction on the rating of a new coming game, or some niche games. The rating of a game is not only closely related to the features of a game itself but also depend on the players’ side - the reviews, to a great extent. On one hand, understanding the rating and features relations can help board game designer or board game companies to design greater games. On the other hand, for a website like boardgamegeek, prediction of rating by analyzing unlabeled comments will give a more thorough picture of a game. For publishers, the prediction of rating will also reflect the uncovered aspect of a game. </p>
 
 <p> Hence, to achieve this goal, first step is to understand the relation between the features and rating of a board game. Then, build a statistical model based on this knowledge. Secondly, we need to analyze the comments from the players and come up with another model based merely upon the customers. Finally, a comparison between these two models will give rise to how large the gap between the game itself and the true game experienced by the players. Hopefully, these two models will be consistent! </p>
 
@@ -101,8 +101,6 @@
 	<p></p>
 	<p>The LOO risk reaches the loweset with the choice of k=13. Comparing with the best model from linear regression, kNN algorithm gives smaller LOO risk. Thus, the kNN model is better!</p>
 
-<p>We hope you enjoyed reading our project as much as we do! If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/boardgame'>here</a> is our jupyter notebook. Comments and feedback are always welcomed(<a href = ''> Click here </a>)!<p>
-
 <div class = 'ex3'>
 </div>
 
@@ -120,13 +118,16 @@
 <div class = 'ex3'>
 </div>
 
-<center> This is us laughing when finishing the project... (not really) </center>
-<div >
-<center><img class = "clip" src="laughing.JPG" width="410" height="273" align="middle"></center>
-</div>
+<h2> <font color = '#faca55'>FUTURE WORK</font></h2>
 
+	<p> The next step is to predict the rating of a game based on the comments. </p>
+
+	<p> Another part of my project after having a big picture of board games, is to come up with a metric which represents the similarity between two games can be proposed. Using this metric, a recommendation system can be built to find the game most similar to a bunch of games different people suggest. </p>
+	
 <div class = 'ex3'>
 </div>
+
+	<p>I hope you enjoyed reading my project as much as I do! Hope this project makes you excited about the board game market. If you want check out more about this project, <a href = 'https://github.com/CelineChen0211/boardgame'>here</a> is the jupyter notebook. Comments and feedback are always welcomed(<a href = ''> Click here </a>)!<p>
 
 <center>
 <footer class="site-footer">
